@@ -1,6 +1,6 @@
 import { app, BrowserWindow } from "electron"
 import { ipcMainHandle, isDev } from "./util.js";
-import { getPreloadPath, getUIPath } from "./pathResolver.js";
+import { getPreloadPath, getUIPath, getIconPath } from "./pathResolver.js";
 import { getStaticData, pollResources } from "./test.js";
 import dotenv from "dotenv";
 
@@ -15,6 +15,7 @@ app.on("ready", () => {
         webPreferences: {
             preload: getPreloadPath(),
         }
+        , icon: getIconPath()
     });
 
     if (isDev()) mainWindow.loadURL(`http://localhost:${PORT}`)
