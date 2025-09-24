@@ -23,3 +23,5 @@ dist-electron
 *.njsproj
 *.sln
 *.sw?
+
+.env
