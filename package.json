@@ -25,6 +25,7 @@
 		"os-utils": "^0.0.14",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
+		"shadcn": "^3.5.0",
 		"tailwind-merge": "^3.0.1",
 		"tailwindcss": "^4.0.6",
 		"tailwindcss-animate": "^1.0.7",
