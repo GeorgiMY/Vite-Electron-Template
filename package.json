@@ -39,7 +39,7 @@
 		"@types/react-dom": "^19.0.3",
 		"@vitejs/plugin-react": "^4.3.4",
 		"cross-env": "^7.0.3",
-		"electron": "^34.1.1",
+		"electron": "^35.7.5",
 		"electron-builder": "^25.1.8",
 		"eslint": "^9.19.0",
 		"eslint-plugin-react-hooks": "^5.0.0",
