@@ -31,7 +31,25 @@ function App() {
 
             <Button className='mb-10 mt-5 cursor-pointer' variant="outline">ShadCN Button</Button>
 
-            <p><a href="https://buymeacoffee.com/georgimy" target="_blank" className='text-2xl font-bold bg-yellow-300 py-4 px-5 rounded-xl cursor-pointer my-4 active:outline-2 active:outline-offset-2'>☕Buy me a coffee☕</a></p>
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+                <a
+                href="https://buymeacoffee.com/georgimy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl font-bold bg-yellow-300 text-black py-4 px-5 rounded-xl cursor-pointer hover:bg-yellow-400 active:outline-2 active:outline-offset-2 transition-colors"
+                >
+                ☕ Buy me a coffee ☕
+                </a>
+
+                <a
+                href="https://x.com/GeorgiMY"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl font-bold bg-black text-white py-4 px-5 rounded-xl cursor-pointer hover:bg-neutral-800 active:outline-2 active:outline-offset-2 transition-colors"
+                >
+                Follow me on X @GeorgiMY
+                </a>
+            </div>
         </div>
     )
 }
