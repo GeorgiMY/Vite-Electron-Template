@@ -33,15 +33,6 @@ function App() {
 
             <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
                 <a
-                href="https://buymeacoffee.com/georgimy"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-2xl font-bold bg-yellow-300 text-black py-4 px-5 rounded-xl cursor-pointer hover:bg-yellow-400 active:outline-2 active:outline-offset-2 transition-colors"
-                >
-                ☕ Buy me a coffee ☕
-                </a>
-
-                <a
                 href="https://x.com/GeorgiMY"
                 target="_blank"
                 rel="noopener noreferrer"

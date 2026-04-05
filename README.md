@@ -24,6 +24,4 @@ This is an **Electron** template using **Vite, React, Typescript, TailWindCSS an
 
 If you want to support me you can-
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/georgimy)
-
 [![Follow on X](https://img.shields.io/badge/Follow_%40GeorgiMY-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/GeorgiMY)
