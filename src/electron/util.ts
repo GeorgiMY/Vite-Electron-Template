@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 const PORT = process.env.PORT;
-if (!PORT) throw new Error("PORT env variable is not set");
+if (!PORT && isDev()) throw new Error("PORT env variable is not set");
 
 // Checks if you are in development mode
 export function isDev(): boolean {
